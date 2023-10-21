@@ -1,8 +1,8 @@
 <template>
-  <nav class="bg-indigo-500">
+  <nav class="bg-secondary">
     <div class="container h-[100px] flex justify-between items-center text-white desktop:text-lg">
       <div class="logo">
-        <i>LOGO</i>
+        <i class="far fa-envelope w-[30px] h-[30px]"></i>
       </div>
       <div class="nav-items">
         <ul class="flex flex-row gap-5">
