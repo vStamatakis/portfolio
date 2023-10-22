@@ -2,13 +2,13 @@
 </script>
 
 <template>
-  <main class="">
-    <div class="container flex flex-row py-[60px] h-[500px]">
+  <main class="my-[8%]">
+    <div class="container flex flex-row h-[500px]">
       <div class="flex flex-col basis-1/6 pr-10 justify-center align-center">
         <ul class="flex flex-col social-icons gap-y-10">
-          <li><a href=""><i class="fa-brands fa-linkedin-in fa-2x"></i></a></li>
-          <li><a href=""><i class="fa-brands fa-instagram fa-2x"></i></a></li>
-          <li><a href=""><i class="fa-brands fa-github fa-2x"></i></a></li>
+          <li><a href=""><i class="fa-brands text-primary hover:text-secondary fa-linkedin-in fa-2x"></i></a></li>
+          <li><a href=""><i class="fa-brands text-primary hover:text-secondary fa-instagram fa-2x"></i></a></li>
+          <li><a href=""><i class="fa-brands text-primary hover:text-secondary fa-github fa-2x"></i></a></li>
         </ul>
       </div>
       <div class="flex flex-col basis-1/2 pr-10 gap-y-2">
@@ -22,6 +22,16 @@
           <div
             class="button border border-2 rounded border-primary flex justify-center align-center w-[35%] p-3 transition ease-in-out delay-100 hover:cursor-pointer hover:bg-primary hover:text-white">
             <a href="" class="text-primary">Contact Me</a>
+          </div>
+        </div>
+        <div class="pt-[30%]">
+          <div class="flex flex-row">
+            <div class="flex gap-x-2 items-center">
+              <i class="fa-solid text-primary hover:text-secondary fa-computer-mouse fa-2x"></i>
+              <span class="text-primary">Scroll down</span>
+              <i class="fa-solid text-primary hover:text-secondary fa-angles-down"></i>
+            </div>
+
           </div>
         </div>
       </div>
